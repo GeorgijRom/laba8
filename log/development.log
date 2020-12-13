@@ -1,0 +1,1404 @@
+Started GET "/" for ::1 at 2020-12-04 11:32:23 +0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/geogre/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/railties-5.2.4.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/geogre/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/railties-5.2.4.4/lib/rails/templates/rails/welcome/index.html.erb (5.3ms)
+Completed 200 OK in 23ms (Views: 11.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lab8/input" for ::1 at 2020-12-04 11:32:35 +0300
+Processing by Lab8Controller#input as HTML
+  Rendering lab8/input.html.erb within layouts/application
+  Rendered lab8/input.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 2714ms (Views: 2712.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lab8/input" for ::1 at 2020-12-04 11:36:47 +0300
+Processing by Lab8Controller#input as HTML
+  Rendering lab8/input.html.erb within layouts/application
+  Rendered lab8/input.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 68ms (Views: 65.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/laba8/view?utf8=%E2%9C%93&v1=&commit=%D0%92%D1%8B%D0%BF%D0%BE%D0%BB%D0%BD%D0%B8%D1%82%D1%8C+%D0%BF%D0%BE%D0%B8%D1%81%D0%BA" for ::1 at 2020-12-04 11:37:45 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/laba8/view"):
+  
+actionpack (5.2.4.4) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.4) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.4.4) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/laba8/view?utf8=%E2%9C%93&v1=5&commit=%D0%92%D1%8B%D0%BF%D0%BE%D0%BB%D0%BD%D0%B8%D1%82%D1%8C+%D0%BF%D0%BE%D0%B8%D1%81%D0%BA" for ::1 at 2020-12-04 11:45:51 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/laba8/view"):
+  
+actionpack (5.2.4.4) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.4) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.4.4) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2020-12-04 11:48:42 +0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/geogre/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/railties-5.2.4.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/geogre/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/railties-5.2.4.4/lib/rails/templates/rails/welcome/index.html.erb (3.0ms)
+Completed 200 OK in 16ms (Views: 8.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lab8/input" for ::1 at 2020-12-04 11:49:45 +0300
+Processing by Lab8Controller#input as HTML
+  Rendering lab8/input.html.erb within layouts/application
+  Rendered lab8/input.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 294ms (Views: 292.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/laba8/view?utf8=%E2%9C%93&v1=5&commit=%D0%92%D1%8B%D0%BF%D0%BE%D0%BB%D0%BD%D0%B8%D1%82%D1%8C+%D0%BF%D0%BE%D0%B8%D1%81%D0%BA" for ::1 at 2020-12-04 11:49:48 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/laba8/view"):
+  
+actionpack (5.2.4.4) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.4) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.4.4) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/lab8/input" for ::1 at 2020-12-04 11:50:37 +0300
+Processing by Lab8Controller#input as HTML
+  Rendering lab8/input.html.erb within layouts/application
+  Rendered lab8/input.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 32ms (Views: 30.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lab8/view?utf8=%E2%9C%93&v1=5&commit=%D0%92%D1%8B%D0%BF%D0%BE%D0%BB%D0%BD%D0%B8%D1%82%D1%8C+%D0%BF%D0%BE%D0%B8%D1%81%D0%BA" for ::1 at 2020-12-04 11:50:39 +0300
+Processing by Lab8Controller#view as HTML
+  Parameters: {"utf8"=>"✓", "v1"=>"5", "commit"=>"Выполнить поиск"}
+  Rendering lab8/view.html.erb within layouts/application
+  Rendered lab8/view.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 53ms (Views: 46.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lab8/view?utf8=%E2%9C%93&v1=5&commit=%D0%92%D1%8B%D0%BF%D0%BE%D0%BB%D0%BD%D0%B8%D1%82%D1%8C+%D0%BF%D0%BE%D0%B8%D1%81%D0%BA" for ::1 at 2020-12-04 11:51:52 +0300
+Processing by Lab8Controller#view as HTML
+  Parameters: {"utf8"=>"✓", "v1"=>"5", "commit"=>"Выполнить поиск"}
+  Rendering lab8/view.html.erb within layouts/application
+  Rendered lab8/view.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 42ms (Views: 38.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lab8/input" for ::1 at 2020-12-04 11:51:58 +0300
+Processing by Lab8Controller#input as HTML
+  Rendering lab8/input.html.erb within layouts/application
+  Rendered lab8/input.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 41ms (Views: 39.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lab8/view?utf8=%E2%9C%93&v1=22&commit=%D0%92%D1%8B%D0%BF%D0%BE%D0%BB%D0%BD%D0%B8%D1%82%D1%8C+%D0%BF%D0%BE%D0%B8%D1%81%D0%BA" for ::1 at 2020-12-04 11:52:03 +0300
+Processing by Lab8Controller#view as HTML
+  Parameters: {"utf8"=>"✓", "v1"=>"22", "commit"=>"Выполнить поиск"}
+  Rendering lab8/view.html.erb within layouts/application
+  Rendered lab8/view.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 31ms (Views: 27.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lab8/input" for ::1 at 2020-12-04 11:57:48 +0300
+Processing by Lab8Controller#input as HTML
+  Rendering lab8/input.html.erb within layouts/application
+  Rendered lab8/input.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 46ms (Views: 44.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lab8/view?utf8=%E2%9C%93&v1=22&commit=%D0%92%D1%8B%D0%BF%D0%BE%D0%BB%D0%BD%D0%B8%D1%82%D1%8C+%D0%BF%D0%BE%D0%B8%D1%81%D0%BA" for ::1 at 2020-12-04 11:57:50 +0300
+Processing by Lab8Controller#view as HTML
+  Parameters: {"utf8"=>"✓", "v1"=>"22", "commit"=>"Выполнить поиск"}
+  Rendering lab8/view.html.erb within layouts/application
+  Rendered lab8/view.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 32ms (Views: 27.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-12-06 20:23:22 +0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/geogre/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/railties-5.2.4.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/geogre/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/railties-5.2.4.4/lib/rails/templates/rails/welcome/index.html.erb (2.4ms)
+Completed 200 OK in 13ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calc/view.json?v1=123&v2=234&op=*" for ::1 at 2020-12-06 22:30:38 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/calc/view.json"):
+  
+actionpack (5.2.4.4) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.4) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.4.4) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/calc/view.json?v1=123&v2=234&op=*" for ::1 at 2020-12-06 22:30:38 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/calc/view.json"):
+  
+actionpack (5.2.4.4) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.4) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.4.4) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/calc/view.json?v1=123&v2=234&op=*%D0%95%D1%81%D0%BB%D0%B8" for ::1 at 2020-12-06 22:31:27 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/calc/view.json"):
+  
+actionpack (5.2.4.4) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.4) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.4.4) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/lab8/view.json?v1=123&v2=234&op=*%D0%95%D1%81%D0%BB%D0%B8" for ::1 at 2020-12-06 22:31:58 +0300
+Processing by Lab8Controller#view as JSON
+  Parameters: {"v1"=>"123", "v2"=>"234", "op"=>"*Если"}
+Completed 200 OK in 6ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/laba8/view.json?v1=123&v2=234&op=*%D0%95%D1%81%D0%BB%D0%B8" for ::1 at 2020-12-06 22:37:02 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/laba8/view.json"):
+  
+actionpack (5.2.4.4) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.4) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.4.4) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/lab8/view.json?v1=123&v2=234&op=*%D0%95%D1%81%D0%BB%D0%B8" for ::1 at 2020-12-06 22:37:15 +0300
+Processing by Lab8Controller#view as JSON
+  Parameters: {"v1"=>"123", "v2"=>"234", "op"=>"*Если"}
+Completed 200 OK in 12ms (Views: 4.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calc/input" for ::1 at 2020-12-06 22:37:32 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/calc/input"):
+  
+actionpack (5.2.4.4) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.4) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.4.4) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/lab8/input" for ::1 at 2020-12-06 22:37:41 +0300
+Processing by Lab8Controller#input as HTML
+  Rendering lab8/input.html.erb within layouts/application
+  Rendered lab8/input.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 207ms (Views: 205.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lab8/view?utf8=%E2%9C%93&v1=22&commit=%D0%92%D1%8B%D0%BF%D0%BE%D0%BB%D0%BD%D0%B8%D1%82%D1%8C+%D0%BF%D0%BE%D0%B8%D1%81%D0%BA" for ::1 at 2020-12-06 22:37:48 +0300
+Processing by Lab8Controller#view as HTML
+  Parameters: {"utf8"=>"✓", "v1"=>"22", "commit"=>"Выполнить поиск"}
+  Rendering lab8/view.html.erb within layouts/application
+  Rendered lab8/view.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 33ms (Views: 27.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lab8/input" for ::1 at 2020-12-06 22:37:51 +0300
+Processing by Lab8Controller#input as HTML
+  Rendering lab8/input.html.erb within layouts/application
+  Rendered lab8/input.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 32ms (Views: 30.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calc/view.json?v1=123&v2=234&op=*" for ::1 at 2020-12-06 22:45:16 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/calc/view.json"):
+  
+actionpack (5.2.4.4) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.4) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.4.4) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/lab8/view.json?v1=123&v2=234&op=*" for ::1 at 2020-12-06 22:45:32 +0300
+Processing by Lab8Controller#view as JSON
+  Parameters: {"v1"=>"123", "v2"=>"234", "op"=>"*"}
+Completed 200 OK in 4ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-12-08 09:08:51 +0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/geogre/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/railties-5.2.4.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/geogre/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/railties-5.2.4.4/lib/rails/templates/rails/welcome/index.html.erb (3.9ms)
+Completed 200 OK in 19ms (Views: 9.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for ::1 at 2020-12-08 09:09:00 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/test"):
+  
+actionpack (5.2.4.4) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.4) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.4.4) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/lab8/test" for ::1 at 2020-12-08 09:09:15 +0300
+  
+SyntaxError (/home/geogre/LEP/laba8/app/controllers/lab8_controller.rb:37: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/controllers/lab8_controller.rb:37: syntax error, unexpected end-of-input, expecting keyword_end
+Started GET "/lab8/test" for ::1 at 2020-12-08 09:11:42 +0300
+Processing by Lab8Controller#test as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+TypeError (no implicit conversion of Symbol into Integer):
+  
+app/controllers/lab8_controller.rb:31:in `test'
+Started GET "/lab8/test" for ::1 at 2020-12-08 09:12:59 +0300
+Processing by Lab8Controller#test as HTML
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lab8/test" for ::1 at 2020-12-08 09:14:10 +0300
+  
+SyntaxError (/home/geogre/LEP/laba8/app/controllers/lab8_controller.rb:32: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+    <meta charset="utf-8">
+                   ^~~
+/home/geogre/LEP/laba8/app/controllers/lab8_controller.rb:32: syntax error, unexpected tSTRING_BEG, expecting keyword_end
+    <meta charset="utf-8">
+                        ^
+/home/geogre/LEP/laba8/app/controllers/lab8_controller.rb:41: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+        <script type="text/javascript">
+                      ^~~~
+/home/geogre/LEP/laba8/app/controllers/lab8_controller.rb:41: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+... <script type="text/javascript">
+...                              ^
+/home/geogre/LEP/laba8/app/controllers/lab8_controller.rb:43: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+....style.backgroundColor = "green";
+...                          ^~~~~
+/home/geogre/LEP/laba8/app/controllers/lab8_controller.rb:48: syntax error, unexpected tINTEGER, expecting keyword_end
+            <table border="1">
+                           ^
+/home/geogre/LEP/laba8/app/controllers/lab8_controller.rb:50: syntax error, unexpected tINTEGER, expecting keyword_end
+...                 <th colspan="2" onclick="mouseOver(this)">...
+...                              ^
+/home/geogre/LEP/laba8/app/controllers/lab8_controller.rb:50: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+... colspan="2" onclick="mouseOver(this)">Хочу вот эт...
+...                      ^~~~~~~~~
+/home/geogre/LEP/laba8/app/controllers/lab8_controller.rb:50: syntax error, unexpected tSTRING_BEG, expecting keyword_end
+...n="2" onclick="mouseOver(this)">Хочу вот эти ве...
+...                              ^):
+  
+app/controllers/lab8_controller.rb:32: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+app/controllers/lab8_controller.rb:32: syntax error, unexpected tSTRING_BEG, expecting keyword_end
+app/controllers/lab8_controller.rb:41: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+app/controllers/lab8_controller.rb:41: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+app/controllers/lab8_controller.rb:43: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+app/controllers/lab8_controller.rb:48: syntax error, unexpected tINTEGER, expecting keyword_end
+app/controllers/lab8_controller.rb:50: syntax error, unexpected tINTEGER, expecting keyword_end
+app/controllers/lab8_controller.rb:50: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+app/controllers/lab8_controller.rb:50: syntax error, unexpected tSTRING_BEG, expecting keyword_end
+Started GET "/lab8/test" for ::1 at 2020-12-08 09:15:38 +0300
+Processing by Lab8Controller#test as HTML
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lab8/test" for ::1 at 2020-12-08 09:16:28 +0300
+Processing by Lab8Controller#test as HTML
+  Rendering html template
+  Rendered html template (0.1ms)
+Completed 200 OK in 7ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lab8/test" for ::1 at 2020-12-08 09:17:53 +0300
+Processing by Lab8Controller#test as HTML
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lab8/test" for ::1 at 2020-12-08 09:20:57 +0300
+Processing by Lab8Controller#test as HTML
+  Rendering lab8/test.html.erb within layouts/application
+  Rendered lab8/test.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 407ms (Views: 405.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lab8/test" for ::1 at 2020-12-08 09:25:36 +0300
+Processing by Lab8Controller#test as HTML
+  Rendering lab8/test.html.erb within layouts/application
+  Rendered lab8/test.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 35ms (Views: 31.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lab8/test" for ::1 at 2020-12-08 09:27:18 +0300
+Processing by Lab8Controller#test as HTML
+  Rendering lab8/test.html.erb within layouts/application
+  Rendered lab8/test.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 44ms (Views: 42.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lab8/test" for ::1 at 2020-12-08 09:27:21 +0300
+Processing by Lab8Controller#test as HTML
+  Rendering lab8/test.html.erb within layouts/application
+  Rendered lab8/test.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 35ms (Views: 33.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lab8/test" for ::1 at 2020-12-08 09:27:23 +0300
+Processing by Lab8Controller#test as HTML
+  Rendering lab8/test.html.erb within layouts/application
+  Rendered lab8/test.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 41ms (Views: 39.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lab8/test" for ::1 at 2020-12-08 09:27:40 +0300
+Processing by Lab8Controller#test as HTML
+  Rendering lab8/test.html.erb within layouts/application
+  Rendered lab8/test.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 63ms (Views: 61.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lab8/test" for ::1 at 2020-12-08 09:42:05 +0300
+Processing by Lab8Controller#test as HTML
+  Rendering lab8/test.html.erb within layouts/application
+  Rendered lab8/test.html.erb within layouts/application (1.6ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/geogre/LEP/laba8/app/views/lab8/test.html.erb:26: syntax error, unexpected keyword_do_block
+...            @data.each |row| do 
+...                             ^~
+/home/geogre/LEP/laba8/app/views/lab8/test.html.erb:44: syntax error, unexpected keyword_ensure, expecting end-of-input
+          ensure
+          ^~~~~~):
+  
+app/views/lab8/test.html.erb:26: syntax error, unexpected keyword_do_block
+app/views/lab8/test.html.erb:44: syntax error, unexpected keyword_ensure, expecting end-of-input
+Started GET "/lab8/test" for ::1 at 2020-12-08 09:43:34 +0300
+Processing by Lab8Controller#test as HTML
+  Rendering lab8/test.html.erb within layouts/application
+  Rendered lab8/test.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 44ms (Views: 40.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lab8/test" for ::1 at 2020-12-08 09:54:11 +0300
+Processing by Lab8Controller#test as HTML
+  Rendering lab8/test.html.erb within layouts/application
+  Rendered lab8/test.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 41ms (Views: 39.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lab8/test" for ::1 at 2020-12-08 09:54:15 +0300
+Processing by Lab8Controller#test as HTML
+  Rendering lab8/test.html.erb within layouts/application
+  Rendered lab8/test.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 31ms (Views: 29.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lab8/test" for ::1 at 2020-12-08 09:54:38 +0300
+Processing by Lab8Controller#test as HTML
+  Rendering lab8/test.html.erb within layouts/application
+  Rendered lab8/test.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 28ms (Views: 26.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lab8/test" for ::1 at 2020-12-08 09:54:53 +0300
+Processing by Lab8Controller#test as HTML
+  Rendering lab8/test.html.erb within layouts/application
+  Rendered lab8/test.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 34ms (Views: 32.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-12-10 21:54:43 +0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/geogre/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/railties-5.2.4.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/geogre/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/railties-5.2.4.4/lib/rails/templates/rails/welcome/index.html.erb (3.0ms)
+Completed 200 OK in 13ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lab8/test" for ::1 at 2020-12-10 21:55:01 +0300
+Processing by Lab8Controller#test as HTML
+  Rendering lab8/test.html.erb within layouts/application
+  Rendered lab8/test.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 174ms (Views: 171.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lab8/test" for ::1 at 2020-12-10 21:56:03 +0300
+Processing by Lab8Controller#test as HTML
+  Rendering lab8/test.html.erb within layouts/application
+  Rendered lab8/test.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 27ms (Views: 25.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lab8/test" for ::1 at 2020-12-10 21:58:21 +0300
+Processing by Lab8Controller#test as HTML
+  Rendering lab8/test.html.erb within layouts/application
+  Rendered lab8/test.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 21ms (Views: 20.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lab8/test" for ::1 at 2020-12-10 22:06:25 +0300
+Processing by Lab8Controller#test as HTML
+  Rendering lab8/test.html.erb within layouts/application
+  Rendered lab8/test.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 24ms (Views: 23.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lab8/test" for ::1 at 2020-12-10 22:08:06 +0300
+Processing by Lab8Controller#test as HTML
+  Rendering lab8/test.html.erb within layouts/application
+  Rendered lab8/test.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 22ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lab8/test" for ::1 at 2020-12-10 22:10:06 +0300
+Processing by Lab8Controller#test as HTML
+  Rendering lab8/test.html.erb within layouts/application
+  Rendered lab8/test.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 26ms (Views: 24.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lab8/test" for ::1 at 2020-12-10 22:16:05 +0300
+Processing by Lab8Controller#test as HTML
+  Rendering lab8/test.html.erb within layouts/application
+  Rendered lab8/test.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 27ms (Views: 25.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lab8/test" for ::1 at 2020-12-10 22:18:13 +0300
+Processing by Lab8Controller#test as HTML
+  Rendering lab8/test.html.erb within layouts/application
+  Rendered lab8/test.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 32ms (Views: 30.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lab8/test" for ::1 at 2020-12-10 22:36:20 +0300
+Processing by Lab8Controller#test as HTML
+  Rendering lab8/test.html.erb within layouts/application
+  Rendered lab8/test.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 76ms (Views: 72.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/lab8/my_action" for ::1 at 2020-12-10 22:36:23 +0300
+Processing by Lab8Controller#my_action as HTML
+  Parameters: {"username"=>"19u336"}
+Can't verify CSRF token authenticity.
+Completed 422 Unprocessable Entity in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+actionpack (5.2.4.4) lib/action_controller/metal/request_forgery_protection.rb:211:in `handle_unverified_request'
+actionpack (5.2.4.4) lib/action_controller/metal/request_forgery_protection.rb:243:in `handle_unverified_request'
+actionpack (5.2.4.4) lib/action_controller/metal/request_forgery_protection.rb:238:in `verify_authenticity_token'
+activesupport (5.2.4.4) lib/active_support/callbacks.rb:426:in `block in make_lambda'
+activesupport (5.2.4.4) lib/active_support/callbacks.rb:198:in `block (2 levels) in halting'
+actionpack (5.2.4.4) lib/abstract_controller/callbacks.rb:34:in `block (2 levels) in <module:Callbacks>'
+activesupport (5.2.4.4) lib/active_support/callbacks.rb:199:in `block in halting'
+activesupport (5.2.4.4) lib/active_support/callbacks.rb:513:in `block in invoke_before'
+activesupport (5.2.4.4) lib/active_support/callbacks.rb:513:in `each'
+activesupport (5.2.4.4) lib/active_support/callbacks.rb:513:in `invoke_before'
+activesupport (5.2.4.4) lib/active_support/callbacks.rb:131:in `run_callbacks'
+actionpack (5.2.4.4) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (5.2.4.4) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (5.2.4.4) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (5.2.4.4) lib/active_support/notifications.rb:168:in `block in instrument'
+activesupport (5.2.4.4) lib/active_support/notifications/instrumenter.rb:23:in `instrument'
+activesupport (5.2.4.4) lib/active_support/notifications.rb:168:in `instrument'
+actionpack (5.2.4.4) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (5.2.4.4) lib/action_controller/metal/params_wrapper.rb:256:in `process_action'
+activerecord (5.2.4.4) lib/active_record/railties/controller_runtime.rb:24:in `process_action'
+actionpack (5.2.4.4) lib/abstract_controller/base.rb:134:in `process'
+actionview (5.2.4.4) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.4.4) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.4.4) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.4.4) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.4.4) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.4.4) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.4.4) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.4.4) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.4.4) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.4.4) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.4.4) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.4) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.4.4) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/lab8/test" for ::1 at 2020-12-10 22:46:09 +0300
+Processing by Lab8Controller#test as HTML
+  Rendering lab8/test.html.erb within layouts/application
+  Rendered lab8/test.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 38ms (Views: 36.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/lab8/test" for ::1 at 2020-12-10 22:46:50 +0300
+  
+ActionController::RoutingError (No route matches [POST] "/lab8/test"):
+  
+actionpack (5.2.4.4) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.4) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.4.4) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started POST "/lab8/test" for ::1 at 2020-12-10 22:49:26 +0300
+  
+ActionController::RoutingError (No route matches [POST] "/lab8/test"):
+  
+actionpack (5.2.4.4) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.4) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.4.4) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/lab8/test" for ::1 at 2020-12-10 22:49:27 +0300
+Processing by Lab8Controller#test as HTML
+  Rendering lab8/test.html.erb within layouts/application
+  Rendered lab8/test.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 48ms (Views: 46.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/lab8/lab8/my_action" for ::1 at 2020-12-10 22:49:28 +0300
+  
+ActionController::RoutingError (No route matches [POST] "/lab8/lab8/my_action"):
+  
+actionpack (5.2.4.4) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.4) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.4.4) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started POST "/lab8/lab8/my_action" for ::1 at 2020-12-10 22:49:30 +0300
+  
+ActionController::RoutingError (No route matches [POST] "/lab8/lab8/my_action"):
+  
+actionpack (5.2.4.4) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.4) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.4.4) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/lab8/test" for ::1 at 2020-12-10 22:49:59 +0300
+Processing by Lab8Controller#test as HTML
+  Rendering lab8/test.html.erb within layouts/application
+  Rendered lab8/test.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 37ms (Views: 35.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/lab8/my_action" for ::1 at 2020-12-10 22:50:04 +0300
+Processing by Lab8Controller#my_action as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ra38qUs9qzMBVwNS1xqHvFegMHH/JeWVnC3wWqYzbnZZZx5qQ8Z4s9ob9yT7tSEDiWgB5d5Q9Z1xtGXYSRgbTA==", "username"=>"gogarom"}
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::MissingTemplate (Missing template lab8/my_action, application/my_action with {:locale=>[:en], :formats=>[:js, :html, :text, :js, :css, :ics, :csv, :vcf, :vtt, :png, :jpeg, :gif, :bmp, :tiff, :svg, :mpeg, :mp3, :ogg, :m4a, :webm, :mp4, :otf, :ttf, :woff, :woff2, :xml, :rss, :atom, :yaml, :multipart_form, :url_encoded_form, :json, :pdf, :zip, :gzip], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/geogre/LEP/laba8/app/views"
+):
+  
+app/controllers/lab8_controller.rb:34:in `my_action'
+Started GET "/lab8/test" for ::1 at 2020-12-10 22:52:14 +0300
+Processing by Lab8Controller#test as HTML
+  Rendering lab8/test.html.erb within layouts/application
+  Rendered lab8/test.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 44ms (Views: 41.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/lab8/my_action" for ::1 at 2020-12-10 22:52:19 +0300
+Processing by Lab8Controller#my_action as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"FNYNnOEBbqDNQkt+cgQ2ixhLvdQfi5tEAJXEo1FPoKEIHO9f6fq9IBYOvwheq5A0xoOMQD7+i0ztDFEhvmTVmw==", "username"=>"gogarom"}
+  Rendering lab8/my_action.html.erb within layouts/application
+  Rendered lab8/my_action.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 36ms (Views: 34.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/lab8/my_action" for ::1 at 2020-12-10 22:53:57 +0300
+Processing by Lab8Controller#my_action as HTML
+  Parameters: {"username"=>"gogarom"}
+Can't verify CSRF token authenticity.
+Completed 422 Unprocessable Entity in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+actionpack (5.2.4.4) lib/action_controller/metal/request_forgery_protection.rb:211:in `handle_unverified_request'
+actionpack (5.2.4.4) lib/action_controller/metal/request_forgery_protection.rb:243:in `handle_unverified_request'
+actionpack (5.2.4.4) lib/action_controller/metal/request_forgery_protection.rb:238:in `verify_authenticity_token'
+activesupport (5.2.4.4) lib/active_support/callbacks.rb:426:in `block in make_lambda'
+activesupport (5.2.4.4) lib/active_support/callbacks.rb:198:in `block (2 levels) in halting'
+actionpack (5.2.4.4) lib/abstract_controller/callbacks.rb:34:in `block (2 levels) in <module:Callbacks>'
+activesupport (5.2.4.4) lib/active_support/callbacks.rb:199:in `block in halting'
+activesupport (5.2.4.4) lib/active_support/callbacks.rb:513:in `block in invoke_before'
+activesupport (5.2.4.4) lib/active_support/callbacks.rb:513:in `each'
+activesupport (5.2.4.4) lib/active_support/callbacks.rb:513:in `invoke_before'
+activesupport (5.2.4.4) lib/active_support/callbacks.rb:131:in `run_callbacks'
+actionpack (5.2.4.4) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (5.2.4.4) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (5.2.4.4) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (5.2.4.4) lib/active_support/notifications.rb:168:in `block in instrument'
+activesupport (5.2.4.4) lib/active_support/notifications/instrumenter.rb:23:in `instrument'
+activesupport (5.2.4.4) lib/active_support/notifications.rb:168:in `instrument'
+actionpack (5.2.4.4) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (5.2.4.4) lib/action_controller/metal/params_wrapper.rb:256:in `process_action'
+activerecord (5.2.4.4) lib/active_record/railties/controller_runtime.rb:24:in `process_action'
+actionpack (5.2.4.4) lib/abstract_controller/base.rb:134:in `process'
+actionview (5.2.4.4) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.4.4) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.4.4) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.4.4) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.4.4) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.4.4) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.4.4) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.4.4) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.4.4) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.4.4) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.4.4) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.4) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.4.4) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started POST "/lab8/my_action" for ::1 at 2020-12-10 22:54:20 +0300
+Processing by Lab8Controller#my_action as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"FNYNnOEBbqDNQkt+cgQ2ixhLvdQfi5tEAJXEo1FPoKEIHO9f6fq9IBYOvwheq5A0xoOMQD7+i0ztDFEhvmTVmw==", "username"=>"gogarom"}
+  Rendering lab8/my_action.html.erb within layouts/application
+  Rendered lab8/my_action.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 46ms (Views: 44.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/lab8/my_action" for ::1 at 2020-12-10 22:59:11 +0300
+Processing by Lab8Controller#my_action as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"FNYNnOEBbqDNQkt+cgQ2ixhLvdQfi5tEAJXEo1FPoKEIHO9f6fq9IBYOvwheq5A0xoOMQD7+i0ztDFEhvmTVmw==", "username"=>"gogarom"}
+  Rendering lab8/my_action.html.erb within layouts/application
+  Rendered lab8/my_action.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 29ms (Views: 28.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lab8/test" for ::1 at 2020-12-10 23:03:52 +0300
+Processing by Lab8Controller#test as HTML
+  Rendering lab8/test.html.erb within layouts/application
+  Rendered lab8/test.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 30ms (Views: 29.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/lab8/my_action" for ::1 at 2020-12-10 23:03:55 +0300
+Processing by Lab8Controller#my_action as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Mqf4lFKpZd5IxfS5k4Zkwvn4jWgtbhRtn0HHc95qvXEubRpXWlK2XpOJAM+/KcJ9JzC8/AwbBGVy2FLxMUHISw==", "username"=>"19u336"}
+  Rendering lab8/my_action.html.erb within layouts/application
+  Rendered lab8/my_action.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 27ms (Views: 25.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lab8/test" for ::1 at 2020-12-10 23:06:05 +0300
+Processing by Lab8Controller#test as HTML
+  Rendering lab8/test.html.erb within layouts/application
+  Rendered lab8/test.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 38ms (Views: 36.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/lab8/my_action" for ::1 at 2020-12-10 23:06:07 +0300
+Processing by Lab8Controller#my_action as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"eYqel8JGZIiUh/ivv49k4BT+WlR3KoPx+f6txzf0R5VlQHxUyr23CE/LDNmTIMJfyjZrwFZfk/kUZzhF2N8yrw==", "username"=>""}
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 6ms (Views: 4.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lab8/test" for ::1 at 2020-12-10 23:06:26 +0300
+Processing by Lab8Controller#test as HTML
+  Rendering lab8/test.html.erb within layouts/application
+  Rendered lab8/test.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 44ms (Views: 42.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/lab8/my_action" for ::1 at 2020-12-10 23:06:29 +0300
+Processing by Lab8Controller#my_action as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5TfauDlag7acqDdCXK57LP7JSd6P3vD1vsmoPmm48x35/Th7MaFQNkfkwzRwAd2TIAF4Sq6r4P1TUD28hpOGJw==", "username"=>"19u336"}
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 3ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-12-10 23:42:04 +0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/geogre/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/railties-5.2.4.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/geogre/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/railties-5.2.4.4/lib/rails/templates/rails/welcome/index.html.erb (4.6ms)
+Completed 200 OK in 17ms (Views: 10.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lab8/test" for ::1 at 2020-12-10 23:42:16 +0300
+Processing by Lab8Controller#test as HTML
+  Rendering lab8/test.html.erb within layouts/application
+  Rendered lab8/test.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 277ms (Views: 275.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lab8/test" for ::1 at 2020-12-10 23:43:47 +0300
+Processing by Lab8Controller#test as HTML
+  Rendering lab8/test.html.erb within layouts/application
+  Rendered lab8/test.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 34ms (Views: 33.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lab8/test" for ::1 at 2020-12-10 23:44:17 +0300
+Processing by Lab8Controller#test as HTML
+  Rendering lab8/test.html.erb within layouts/application
+  Rendered lab8/test.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 38ms (Views: 37.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lab8/test" for ::1 at 2020-12-10 23:45:11 +0300
+Processing by Lab8Controller#test as HTML
+  Rendering lab8/test.html.erb within layouts/application
+  Rendered lab8/test.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 30ms (Views: 28.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lab8/test" for ::1 at 2020-12-10 23:49:12 +0300
+Processing by Lab8Controller#test as HTML
+  Rendering lab8/test.html.erb within layouts/application
+  Rendered lab8/test.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 89ms (Views: 86.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-12-11 18:04:20 +0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/geogre/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/railties-5.2.4.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/geogre/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/railties-5.2.4.4/lib/rails/templates/rails/welcome/index.html.erb (4.7ms)
+Completed 200 OK in 27ms (Views: 16.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/laba8/input" for ::1 at 2020-12-11 18:04:38 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/laba8/input"):
+  
+actionpack (5.2.4.4) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.4) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.4.4) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/lab8/input" for ::1 at 2020-12-11 18:05:16 +0300
+Processing by Lab8Controller#input as HTML
+  Rendering lab8/input.html.erb within layouts/application
+  Rendered lab8/input.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 233ms (Views: 231.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lab8/view?utf8=%E2%9C%93&v1=5&commit=%D0%92%D1%8B%D0%BF%D0%BE%D0%BB%D0%BD%D0%B8%D1%82%D1%8C+%D0%BF%D0%BE%D0%B8%D1%81%D0%BA" for ::1 at 2020-12-11 18:05:20 +0300
+Processing by Lab8Controller#view as HTML
+  Parameters: {"utf8"=>"✓", "v1"=>"5", "commit"=>"Выполнить поиск"}
+  Rendering lab8/view.html.erb within layouts/application
+  Rendered lab8/view.html.erb within layouts/application (4.3ms)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    4: <table>
+    5:   <tr><th>Порядковый номер</th><th>Билет</th></tr>
+    6:   <% lv_count = 0 %> 
+    7:   <% @result.each do |value|%>
+    8:     <% lv_count = lv_count + 1 %>
+    9:     <tr><th><%= lv_count %></th><th><%= "#{value}" %> </th></tr>
+   10:   <%end %>
+  
+app/views/lab8/view.html.erb:7:in `_app_views_lab__view_html_erb__3974779859932170287_69955700769200'
+Started GET "/lab8/view?utf8=%E2%9C%93&v1=5&commit=%D0%92%D1%8B%D0%BF%D0%BE%D0%BB%D0%BD%D0%B8%D1%82%D1%8C+%D0%BF%D0%BE%D0%B8%D1%81%D0%BA" for ::1 at 2020-12-11 18:05:57 +0300
+Processing by Lab8Controller#view as HTML
+  Parameters: {"utf8"=>"✓", "v1"=>"5", "commit"=>"Выполнить поиск"}
+  Rendering lab8/view.html.erb within layouts/application
+  Rendered lab8/view.html.erb within layouts/application (4.1ms)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    4: <table>
+    5:   <tr><th>Порядковый номер</th><th>Билет</th></tr>
+    6:   <% lv_count = 0 %> 
+    7:   <% @result.each do |value|%>
+    8:     <% lv_count = lv_count + 1 %>
+    9:     <tr><th><%= lv_count %></th><th><%= "#{value}" %> </th></tr>
+   10:   <%end %>
+  
+app/views/lab8/view.html.erb:7:in `_app_views_lab__view_html_erb__3974779859932170287_69955723530120'
+Started GET "/lab8/view?utf8=%E2%9C%93&v1=5&commit=%D0%92%D1%8B%D0%BF%D0%BE%D0%BB%D0%BD%D0%B8%D1%82%D1%8C+%D0%BF%D0%BE%D0%B8%D1%81%D0%BA" for ::1 at 2020-12-11 18:07:44 +0300
+Processing by Lab8Controller#view as HTML
+  Parameters: {"utf8"=>"✓", "v1"=>"5", "commit"=>"Выполнить поиск"}
+  Rendering lab8/view.html.erb within layouts/application
+  Rendered lab8/view.html.erb within layouts/application (7.9ms)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    4: <table>
+    5:   <tr><th>Порядковый номер</th><th>Билет</th></tr>
+    6:   <% lv_count = 0 %> 
+    7:   <% @result.each do |value|%>
+    8:     <% lv_count = lv_count + 1 %>
+    9:     <tr><th><%= lv_count %></th><th><%= "#{value}" %> </th></tr>
+   10:   <%end %>
+  
+app/views/lab8/view.html.erb:7:in `_app_views_lab__view_html_erb__3974779859932170287_69955702688040'
+Started GET "/lab8/view?utf8=%E2%9C%93&v1=5&commit=%D0%92%D1%8B%D0%BF%D0%BE%D0%BB%D0%BD%D0%B8%D1%82%D1%8C+%D0%BF%D0%BE%D0%B8%D1%81%D0%BA" for ::1 at 2020-12-11 18:11:14 +0300
+Processing by Lab8Controller#view as HTML
+  Parameters: {"utf8"=>"✓", "v1"=>"5", "commit"=>"Выполнить поиск"}
+  Rendering lab8/view.html.erb within layouts/application
+  Rendered lab8/view.html.erb within layouts/application (2.9ms)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    4: <table>
+    5:   <tr><th>Порядковый номер</th><th>Билет</th></tr>
+    6:   <% lv_count = 0 %> 
+    7:   <% @result.each do |value| lv_count = lv_count + 1 %>
+    8:     <tr><th><%= lv_count %></th><th><%= "#{value}" %> </th></tr>
+    9:   <%end %>
+   10: </table>
+  
+app/views/lab8/view.html.erb:7:in `_app_views_lab__view_html_erb__3974779859932170287_46922981094700'
+Started GET "/lab8/input" for ::1 at 2020-12-11 18:11:19 +0300
+Processing by Lab8Controller#input as HTML
+  Rendering lab8/input.html.erb within layouts/application
+  Rendered lab8/input.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 31ms (Views: 30.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lab8/view?utf8=%E2%9C%93&v1=&commit=%D0%92%D1%8B%D0%BF%D0%BE%D0%BB%D0%BD%D0%B8%D1%82%D1%8C+%D0%BF%D0%BE%D0%B8%D1%81%D0%BA" for ::1 at 2020-12-11 18:11:20 +0300
+Processing by Lab8Controller#view as HTML
+  Parameters: {"utf8"=>"✓", "v1"=>"", "commit"=>"Выполнить поиск"}
+  Rendering lab8/view.html.erb within layouts/application
+  Rendered lab8/view.html.erb within layouts/application (2.2ms)
+Completed 500 Internal Server Error in 512ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    4: <table>
+    5:   <tr><th>Порядковый номер</th><th>Билет</th></tr>
+    6:   <% lv_count = 0 %> 
+    7:   <% @result.each do |value| lv_count = lv_count + 1 %>
+    8:     <tr><th><%= lv_count %></th><th><%= "#{value}" %> </th></tr>
+    9:   <%end %>
+   10: </table>
+  
+app/views/lab8/view.html.erb:7:in `_app_views_lab__view_html_erb__3974779859932170287_69955703358160'
+Started GET "/lab8/input" for ::1 at 2020-12-11 18:13:26 +0300
+  
+SyntaxError (/home/geogre/LEP/laba8/app/controllers/lab8_controller.rb:33: syntax error, unexpected keyword_end, expecting end-of-input):
+  
+app/controllers/lab8_controller.rb:33: syntax error, unexpected keyword_end, expecting end-of-input
+Started GET "/lab8/input" for ::1 at 2020-12-11 18:13:36 +0300
+Processing by Lab8Controller#input as HTML
+  Rendering lab8/input.html.erb within layouts/application
+  Rendered lab8/input.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 32ms (Views: 30.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calc/view?utf8=%E2%9C%93&v1=5&commit=%D0%92%D1%8B%D0%BF%D0%BE%D0%BB%D0%BD%D0%B8%D1%82%D1%8C+%D0%BF%D0%BE%D0%B8%D1%81%D0%BA" for ::1 at 2020-12-11 18:13:39 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/calc/view"):
+  
+actionpack (5.2.4.4) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.4) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.4.4) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/calc/view?utf8=%E2%9C%93&v1=5&commit=%D0%92%D1%8B%D0%BF%D0%BE%D0%BB%D0%BD%D0%B8%D1%82%D1%8C+%D0%BF%D0%BE%D0%B8%D1%81%D0%BA" for ::1 at 2020-12-11 18:14:39 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/calc/view"):
+  
+actionpack (5.2.4.4) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.4) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.4.4) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/lab8/input" for ::1 at 2020-12-11 18:14:43 +0300
+Processing by Lab8Controller#input as HTML
+  Rendering lab8/input.html.erb within layouts/application
+  Rendered lab8/input.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 39ms (Views: 36.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lab8/view?utf8=%E2%9C%93&v1=5&commit=%D0%92%D1%8B%D0%BF%D0%BE%D0%BB%D0%BD%D0%B8%D1%82%D1%8C+%D0%BF%D0%BE%D0%B8%D1%81%D0%BA" for ::1 at 2020-12-11 18:14:45 +0300
+Processing by Lab8Controller#view as HTML
+  Parameters: {"utf8"=>"✓", "v1"=>"5", "commit"=>"Выполнить поиск"}
+  Rendering lab8/view.html.erb within layouts/application
+  Rendered lab8/view.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 30ms (Views: 26.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lab8/input" for ::1 at 2020-12-11 18:14:47 +0300
+Processing by Lab8Controller#input as HTML
+  Rendering lab8/input.html.erb within layouts/application
+  Rendered lab8/input.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 36ms (Views: 35.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-12-11 18:44:09 +0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/geogre/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/railties-5.2.4.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/geogre/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/railties-5.2.4.4/lib/rails/templates/rails/welcome/index.html.erb (2.7ms)
+Completed 200 OK in 17ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lab8/input" for ::1 at 2020-12-11 18:44:15 +0300
+Processing by Lab8Controller#input as HTML
+  Rendering lab8/input.html.erb within layouts/application
+  Rendered lab8/input.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 220ms (Views: 218.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lab8/view?utf8=%E2%9C%93&v1=5&commit=%D0%92%D1%8B%D0%BF%D0%BE%D0%BB%D0%BD%D0%B8%D1%82%D1%8C+%D0%BF%D0%BE%D0%B8%D1%81%D0%BA" for ::1 at 2020-12-11 18:44:25 +0300
+Processing by Lab8Controller#view as HTML
+  Parameters: {"utf8"=>"✓", "v1"=>"5", "commit"=>"Выполнить поиск"}
+  Rendering lab8/view.html.erb within layouts/application
+  Rendered lab8/view.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 33ms (Views: 30.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lab8/input" for ::1 at 2020-12-11 18:44:34 +0300
+Processing by Lab8Controller#input as HTML
+  Rendering lab8/input.html.erb within layouts/application
+  Rendered lab8/input.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 37ms (Views: 35.7ms | ActiveRecord: 0.0ms)
+
+
